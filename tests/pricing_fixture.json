@@ -1,0 +1,475 @@
+{
+ "models": [
+  {
+   "id": "gpt-6.1-sol",
+   "display_name": "GPT 6.1 Sol",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-6-sol",
+   "display_name": "GPT-6 Sol",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-6-luna",
+   "display_name": "GPT-6 Luna",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-6-astra",
+   "display_name": "GPT-6 Astra",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-6-astra (fast)",
+   "display_name": "GPT-6 Astra (Fast)",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "base_model_id": "gpt-6-astra",
+   "service_tier": "fast",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.6-sol",
+   "display_name": "GPT-5.6 Sol",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.6-sol (fast)",
+   "display_name": "GPT-5.6 Sol (Fast)",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "base_model_id": "gpt-5.6-sol",
+   "service_tier": "fast",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.6-terra",
+   "display_name": "GPT-5.6 Terra",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.6-terra (fast)",
+   "display_name": "GPT-5.6 Terra (Fast)",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "base_model_id": "gpt-5.6-terra",
+   "service_tier": "fast",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.6-luna",
+   "display_name": "GPT-5.6 Luna",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.6-luna (fast)",
+   "display_name": "GPT-5.6 Luna (Fast)",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "base_model_id": "gpt-5.6-luna",
+   "service_tier": "fast",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.5",
+   "display_name": "GPT-5.5",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.5 (fast)",
+   "display_name": "GPT-5.5 (Fast)",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "base_model_id": "gpt-5.5",
+   "service_tier": "fast",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.4-mini",
+   "display_name": "GPT-5.4-Mini",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.4-mini (fast)",
+   "display_name": "GPT-5.4-Mini (Fast)",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "base_model_id": "gpt-5.4-mini",
+   "service_tier": "fast",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.4",
+   "display_name": "GPT-5.4",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-5.4 (fast)",
+   "display_name": "GPT-5.4 (Fast)",
+   "owned_by": "openai",
+   "billing_mode": "token",
+   "base_model_id": "gpt-5.4",
+   "service_tier": "fast",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-image-2.5-sunburst",
+   "display_name": "GPT Image 2.5 Sunburst",
+   "owned_by": "openai",
+   "billing_mode": "per_image",
+   "context_window": null,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-image-2.5-flare",
+   "display_name": "GPT Image 2.5 Flare",
+   "owned_by": "openai",
+   "billing_mode": "per_image",
+   "context_window": null,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gpt-image-2",
+   "display_name": "GPT Image 2",
+   "owned_by": "openai",
+   "billing_mode": "per_image",
+   "context_window": null,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-sonnet-5-5",
+   "display_name": "Claude sonnet 5.5",
+   "owned_by": "Anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-haiku-5-5",
+   "display_name": "Claude haiku 5.5",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-opus-5-5",
+   "display_name": "Claude Opus 5.5",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-opus-5",
+   "display_name": "Claude Opus 5",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-fable-5-1",
+   "display_name": "Claude Fable 5.1",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-fable-5",
+   "display_name": "Claude Fable 5",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-sonnet-5",
+   "display_name": "Claude Sonnet 5",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-opus-4-8",
+   "display_name": "Claude Opus 4.8",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-opus-4-7",
+   "display_name": "Claude Opus 4.7",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-sonnet-4-6",
+   "display_name": "Claude Sonnet 4.6",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-opus-4-6",
+   "display_name": "Claude Opus 4.6",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-haiku-4-5",
+   "display_name": "Claude Haiku 4.5",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": 200000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-haiku-4-5-20251001",
+   "display_name": "Claude Haiku 4.5 (20251001)",
+   "owned_by": "anthropic",
+   "billing_mode": "token",
+   "context_window": null,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gemini-4-argon",
+   "display_name": "Gemini 4 Argon",
+   "owned_by": "Google",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gemini-nano-banana-2.1",
+   "display_name": "Nano Banana 2.1",
+   "owned_by": "google",
+   "billing_mode": "token",
+   "context_window": null,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gemini-3.8-flash",
+   "display_name": "Gemini 3.8 Flash",
+   "owned_by": "google",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gemini-3.7-flash",
+   "display_name": "Gemini 3.7 Flash",
+   "owned_by": "google",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gemini-3.6-flash",
+   "display_name": "Gemini 3.6 Flash",
+   "owned_by": "google",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gemini-3.5-flash",
+   "display_name": "Gemini 3.5 Flash",
+   "owned_by": "google",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gemini-3.5-flash-lite",
+   "display_name": "Gemini 3.5 Flash Lite",
+   "owned_by": "google",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gemini-3.1-pro-preview",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "owned_by": "google",
+   "billing_mode": "token",
+   "context_window": 2000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "gemini-3.1-flash-image",
+   "display_name": "Gemini 3.1 Flash Image",
+   "owned_by": "google",
+   "billing_mode": "token",
+   "context_window": null,
+   "max_output_tokens": null
+  },
+  {
+   "id": "deepseek-flash",
+   "display_name": "DeepSeek V4.1 Flash",
+   "owned_by": "deepseek",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "deepseek-flash-free",
+   "display_name": "DeepSeek V4.1 Flash\u798f\u5229\u7248",
+   "owned_by": "deepseek",
+   "billing_mode": "token",
+   "base_model_id": "deepseek-flash",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "deepseek-v4-flash-vision-exp",
+   "display_name": "DeepSeek V4 Flash Vision Exp",
+   "owned_by": "deepseek",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "deepseek-v4-pro",
+   "display_name": "DeepSeek V4 Pro \u6b63\u5f0f\u7248",
+   "owned_by": "deepseek",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "deepseek-v4-pro-260425",
+   "display_name": "DeepSeek V4 Pro 260425",
+   "owned_by": "deepseek",
+   "billing_mode": "token",
+   "context_window": null,
+   "max_output_tokens": null
+  },
+  {
+   "id": "deepseek-v4-flash",
+   "display_name": "DeepSeek V4 Flash",
+   "owned_by": "deepseek",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "deepseek-v4-flash-free",
+   "display_name": "DeepSeek V4 Flash\u798f\u5229\u7248",
+   "owned_by": "deepseek",
+   "billing_mode": "token",
+   "base_model_id": "deepseek-v4-flash",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "glm-5.3-flash",
+   "display_name": "GLM-5.3-Flash (Ox Alpha)",
+   "owned_by": "zhipu",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "glm-5.3-flash-free",
+   "display_name": "GLM 5.3 Flash\u798f\u5229\u7248",
+   "owned_by": "zhipu",
+   "billing_mode": "token",
+   "base_model_id": "glm-5.3-flash",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "glm-5.3",
+   "display_name": "GLM-5.3",
+   "owned_by": "zhipu",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "glm-5.2",
+   "display_name": "GLM-5.2",
+   "owned_by": "zhipu",
+   "billing_mode": "token",
+   "context_window": 1000000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "grok-4.6",
+   "display_name": "Grok 4.6",
+   "owned_by": "xai",
+   "billing_mode": "token",
+   "context_window": 500000,
+   "max_output_tokens": null
+  },
+  {
+   "id": "claude-sonnet-5",
+   "display_name": "duplicate",
+   "billing_mode": "token",
+   "context_window": 1000000
+  },
+  {
+   "id": "tiny-context-model",
+   "billing_mode": "token",
+   "context_window": 8192
+  },
+  {
+   "id": "gpt-tiny",
+   "billing_mode": "token",
+   "context_window": 32000
+  },
+  {
+   "id": "text-embedding-3-large",
+   "billing_mode": "token",
+   "context_window": 8192
+  },
+  "not-a-dict"
+ ]
+}

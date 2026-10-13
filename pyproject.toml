@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68,<84"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-provider-teamorouter"
+version = "0.1.0"
+description = "TeamoRouter model-provider plugin for Hermes Agent"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "TeamoRouter" }]
+keywords = ["hermes-agent", "hermes-plugin", "model-provider", "teamorouter", "claude"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+# Standard library only.
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/2867297362mjb-sketch/hermes-provider-teamorouter"
+Issues = "https://github.com/2867297362mjb-sketch/hermes-provider-teamorouter/issues"
+
+# Optional pip distribution: Hermes imports a bare-module entry point for its
+# module-level register_provider() call, once the user lists it in
+# plugins.enabled.
+[project.entry-points."hermes_agent.plugins"]
+teamorouter = "teamorouter"
+
+[tool.setuptools]
+packages = ["teamorouter"]
+
+[tool.setuptools.package-data]
+teamorouter = ["plugin.yaml", "after-install.md", "README.md"]

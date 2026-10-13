@@ -1,0 +1,13 @@
+name: teamorouter
+kind: model-provider
+version: 0.1.0
+description: TeamoRouter providers for Hermes. Claude models over TeamoRouter's native Anthropic Messages API (teamorouter), other tool-capable models over its OpenAI-compatible API (teamorouter-openai); pickers and context windows come from TeamoRouter's public catalog.
+author: TeamoRouter
+license: MIT
+homepage: https://teamorouter.com/?utm_source=hermes&utm_medium=plugin&utm_campaign=hermes_catalog
+requires_hermes: ">=0.21.5"
+requires_env:
+  - name: TEAMOROUTER_API_KEY
+    description: "TeamoRouter API key"
+    url: "https://teamorouter.com/docs/api-integration?utm_source=hermes&utm_medium=plugin&utm_campaign=hermes_catalog"
+    secret: true
